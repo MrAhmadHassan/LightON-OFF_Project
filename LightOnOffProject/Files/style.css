@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.main-content{
+    /* border: 2px solid white; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.main-content .heading{
+    margin-bottom: 20px;
+    color: white;
+}
+.btn{
+    background-color: yellow;
+    padding: 20px 40px;
+    /* color: white; */
+}
+
+img{
+    width: 200px;
+}
+
+
+
+@media (max-width: 400px) {
+    .heading{
+        color: yellow;
+        font-size: medium;
+    }
+    .btn{
+        padding: 10px 20px;
+    }
+  }
